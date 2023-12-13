@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <button @click="fn">dianji</button>
+    <button @click="fn">点击</button>
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
