@@ -1,7 +1,8 @@
 <template>
   <div id="app">
-    <img @click="fn" alt="Vue logo" src="./assets/logo.png">
+    <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <button @click="fn">dianji</button>
   </div>
 </template>
 
