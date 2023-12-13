@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router';
-import store from './store';
+// import store from './store';
 import * as Sentry from "@sentry/vue";
 Vue.config.productionTip = false
 
@@ -21,6 +21,6 @@ Sentry.init({
 
 new Vue({
     router,
-    store,
+    // store,
     render: h => h(App),
 }).$mount('#app')
